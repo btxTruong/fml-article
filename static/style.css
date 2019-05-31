@@ -1,0 +1,36 @@
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #E5EDED;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+#intro {
+    font-size: 1.3em;
+    text-align: center;
+    color: #20bf6b;
+}
+
+h1 {
+    font-size: 2.3em;
+    color: black;
+}
+
+
+#require {
+    margin-top: 70px;
+    margin-left: 20px;
+    font-size: 1.3em;
+}
+
+footer {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background: #5E7880;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    font-size: 1.2em;
+}
